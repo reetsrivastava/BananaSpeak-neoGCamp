@@ -19,7 +19,7 @@ function clickHandler() {
     fetch(getTranslationURL(inputTxt))
     .then(response => response.json())
     .then( json => {
-        var minionText = "error";
+        var minionText = json.contents.translated;
         outputDiv.innerText = minionText;
         
     })

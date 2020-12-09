@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root {
+    --primary-color:#0A75BC;
+    --secondary-color:#FCE029;
+    --person-color:#3f3d56;
+}
+
+body {
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    margin: 0;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+}
+
+h3{
+    font-size: 30px;
+    margin-block-start: 0;
+    padding-top: 1rem;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    overflow:scroll;
+    border: 1px solid var(--secondary-color);
+    margin: 1rem auto;
+    display: inline-block;
+    
+}
+
+
+
+#submit {
+    font-size: large;
+    padding: 2px;
+    background-color: #FCE029;
+}
+
+.img-output {
+    width: 15%; 
+    margin: 1rem auto;
+}
+
+.middle-sect {
+    background-color: var(--primary-color);
+}
+
+footer {
+    line-height: 2;
+    background-color: var(--secondary-color);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.output-heading {
+    color: var(--secondary-color);
+}
+
+.input-heading{
+    color: var(--person-color);
+}
+
+@media(max-width:460px) {
+    textarea {
+        width: 80%;
+    }
+
+    #output {
+        width: 90%;
+    }
+}
+
+
+
